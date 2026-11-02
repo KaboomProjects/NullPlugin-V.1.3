@@ -1,0 +1,15 @@
+name: NullPlugin
+version: 1.4.0
+main: de.unstablenull.nullplugin.NullPlugin
+api-version: '1.21'
+description: Unstable Null custom items
+commands:
+  "null":
+    description: "Give Null items"
+    usage: "/null <tpbook|withercannon|stasistotem|totemofnull|pearlcannon|bot>"
+  nulltotem:
+    description: "Bind players to the Totem of Null"
+    usage: "/nulltotem <tag|untag> <player>"
+  nullpower:
+    description: "Toggle Null permissions (operators only)"
+    usage: "/nullpower <player>"
